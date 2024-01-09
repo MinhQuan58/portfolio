@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.tab-logo{
+    display: flex;
+    width: 40%;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid;
+    background-color: gainsboro;
+   
+}
+
+#logo{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    gap: 20px;
+}
+
+#logo a{
+    color: black;
+}
+
+.tab-content{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    gap: 300px;
+}
+
+body{
+    margin: 0;    
+}
+
+.text{
+    font-size: 1em;
+    width: 80%;
+}
+ 
+a{
+    text-decoration: none;
+    color: black;
+}
